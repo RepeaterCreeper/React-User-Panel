@@ -3,7 +3,7 @@ import { Head } from '@inertiajs/react';
 import { Select, SelectTrigger, SelectContent, SelectItem, SelectValue } from '@/components/ui/select';
 import { useState, useEffect, useMemo } from 'react';
 import { columns } from '@/components/user-table-columns';
-import { roles, useRemoteUsers, UserWithRole } from '@/utils/mock-users';
+import { roles, UserWithRole } from '@/utils/mock-users';
 import {
   useReactTable,
   getCoreRowModel,
